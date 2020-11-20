@@ -1,0 +1,35 @@
+.contact p{
+    color: var(--gray);
+}
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size:18px!important;
+    color: var(--gray);
+}
+.contact_form{
+    width: 85%!important;
+}
+.contact_form input[type=email]{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size:18px!important;
+    color: var(--gray);
+}
+.contact_form button{
+    background: var(--button);
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size:18px!important;
+}
+.contact_form button:hover{
+    color: var(--white);
+}

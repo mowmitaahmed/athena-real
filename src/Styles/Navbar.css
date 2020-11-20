@@ -1,0 +1,15 @@
+.logo {
+  width: 120px;
+}
+.nav-link {
+  color: var(--dark);
+  transition: transform ease-in-out 0.3s;
+  font-size: 14px;
+}
+.nav-link:hover {
+  color: var(--dark);
+  transform: translateY(-2px);
+}
+.active {
+  font-weight: 700;
+}

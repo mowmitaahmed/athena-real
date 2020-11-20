@@ -1,0 +1,42 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Yeseva+One&display=swap");
+/* All Styles */
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../Styles/Header.css";
+@import "../Styles/Navbar.css";
+@import "../Styles/Banner.css";
+@import "../Styles/Service.css";
+@import "../Styles/RunningProject.css";
+@import "../Styles/Achievements.css";
+@import "../Styles/PricingTable.css";
+@import "../Styles/Contact.css";
+@import "../Styles/Footer.css";
+/* Color Variables */
+:root {
+  --button: linear-gradient(to left, #0ebbdc, #1ddcb5);
+  --card: linear-gradient(to right, #0ebbdc, #1ddcb5);
+  --dark: #0d052e;
+  --white: #ffffff;
+  --gray: #707070;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Common Button */
+.common-btn {
+  background: var(--button);
+  border-radius: 20px 0;
+  width: 140px;
+  /* font-size: 15px; */
+  padding: 10px 0;
+  color: var(--white);
+  transition: transform ease-in-out 0.3s;
+}
+.common-btn:hover {
+  color: var(--white);
+  transform: translateY(-4px);
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive; */

@@ -1,0 +1,6 @@
+.header-area {
+  background: url(../Images/bg-image/header.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 108vh;
+}

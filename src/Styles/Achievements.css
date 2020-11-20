@@ -1,0 +1,37 @@
+.card-bg {
+  border-radius: 0 70px;
+  padding: 30px 0;
+  background: var(--white);
+  box-shadow: 0px 0px 70px #1ddcb633;
+  transition: all ease-in-out 0.3s;
+}
+.card-bg2 {
+  border-radius: 70px 0;
+  padding: 30px 0;
+  background: var(--white);
+  box-shadow: 0px 0px 70px #1ddcb633;
+  transition: all ease-in-out 0.3s;
+}
+.card-bg:hover,
+.card-bg2:hover {
+  background: var(--card);
+}
+.card:hover .achievment-icon,
+.card:hover .achievment-count,
+.card:hover .achievment-tag {
+  color: var(--white);
+  transition: all ease-in-out 0.3s;
+}
+.achievment-icon {
+  color: var(--gray);
+  font-size: 60px;
+  margin-right: 25px;
+}
+.achievment-count {
+  font-weight: 800;
+  font-size: 34px;
+  color: var(--gray);
+}
+.achievment-tag {
+  color: var(--gray);
+}

@@ -1,0 +1,14 @@
+.banner-title {
+  /* font-weight: 600; */
+  font-size: 75px;
+  line-height: 1;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  font-family: "Yeseva One", cursive;
+}
+.banner-paragraph {
+  color: var(--gray);
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.8;
+}
